@@ -96,8 +96,8 @@ font-weight: 2em;
   }
   .hero{
     position:relative;
-    border: 1px solid red;
-    background-image: url("sky_pp.jpg");
+    border: 1px solid #000000;
+    background-color:#000000;
     background-repeat: no-repeat;
     background-size:350px , 50px;
     background-position: center center;
@@ -106,7 +106,28 @@ font-weight: 2em;
   .hero::before{
     position:absolute;  
     }
-
+.hero_content{
+    text-align:center;
+}
+.hero_title{
+    color:#f2cd1a;
+    font-size:33px;
+}
+.hero_subtitle{
+    color:#ffffff;
+}
+.hero_subbtitle{
+    background-color: #ffffff;
+    color:#000000;
+    font-size:28px;
+}
+.hero_button{
+    background-color: #f2cd1a;
+    color:#ffffff;
+    border-radius: 33px;
+    height: 35px;
+    width:140px;
+}
 
 
 
@@ -136,6 +157,8 @@ footer{
     font-weight:100;
 }
 .donatee{
+    position:relative;
+    top:25px;
     border:2px solid #f2cd1a;
     border-radius:33px;
     width:160px;
@@ -162,6 +185,18 @@ clear:both;
     float:left;
     width:33.3%;
     margin-bottom:50px;
+}
+.footer_content p{
+    position: relative;
+    top:25px;
+}
+.footer_content img{
+    position:relative;
+    left:-7px;
+}
+.footer_content h1{
+    color:#000000;
+    font-size: 20px;
 }
 .footer_copyright{
     width:100%;
