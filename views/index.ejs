@@ -2,16 +2,20 @@
 <html>
   <head>
     <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <!-- App Header -->
     <header class="header">
-      <div class="header_logo"> <img src="images/hand4.jpg" width="10px" height="10px" alt="handshake logo"/> Africado Foundation &#124; <img src="images/phonelogo.jpg" width="10px" height="10px" alt="phone logo"/> +234(807)900 6448 &#124; <img src="images/timelogo.jpg" width="10px" height="10px" alt="time logo"/> mon - fri 09:00AM - 05:00PM <img src ="images/inst.jpg" width="10px"
-height="10px" alt ="instagram logo1"/> <img src="images/face.jpg" width="10px" height="10px" alt="facebook logo"/> <img src="images/twitter.jpg" width="10px" height="10px" alt="twitterlogo"/>    
+      <div class="header_logo">
+        <div class="header_logo_right"> <img src="images/handle.png" width="10px" height="10px" alt="handshake logo"/><span class="header_left">Africado Foundation &#124;</span> <img src="images/phone.png" width="10px" height="10px" alt="phone logo"/><span class="header_left"> +234(807)900 6448 &#124;</span> <img src="images/circle.png" width="10px" height="10px" alt="time logo"/> <span class="header_left"> mon - fri 09:00AM - 05:00PM</span> </div>
+        <div class="header_logo_left"><img src ="images/logo_instagram.png"  id="i_mg" width="16px"height="16px" alt ="instagram logo1"/> <img src="images/logo_twitter.png" id="im_g"  width="16px" height="16px" alt="twitter logo"/> <img src="images/logo_facebook.png" id="img_g"  width="16px" height="16px" alt="facebook logo"/>    </div>
 </div>
       <div class="header_links">
-        <div>
+                          
+        <div class="header_nav">
+          <img src="images/logo.png" width="35px" height="35px" alt="weblogo"/>
           <ul class="header_items_links">
             <li class="header_link_item">
               <a href="#">HOME</a>
@@ -25,17 +29,37 @@ height="10px" alt ="instagram logo1"/> <img src="images/face.jpg" width="10px" h
             <li class="header_link_item">
               <a href="#">OUR PROGRAMS</a>
             </li>
-            <li class="header_link_item" id="header_don">
-              <a href="#">DONATE NOW</a>
-            </li>
-          </ul>
+            </ul>
+            <div class="donate"><h3>DONATE NOW</h3></div>
         </div>
-      </div>
+        </div>
     </header>
-    <main></main>
+    <main>  
+      <section class="hero">
+        <div class="hero_content">
+          <h1 class="hero_title">EMPOWERING</h1>
+          <h1 class="hero_subtitle">PEOPLE TO BUILD A <br><span class="hero_subbtitle"></span> BETTER FUTURE.</span></h1>
+          <button type="button" class="hero_button">
+            LEARN MORE
+          </button>
+
+
+        </div>
+
+
+
+
+      </section>
+      <img src="images/road_way.jpg" alt="road" width="250px" height="260px"/>
+
+
+
+
+    </main>
     <footer>
       <div class="footer_body">
-        <div class="footer_content"><h3>Africado Foundation</h3><br/><p>Empowering people to build a better future</p><br/><h2><span class="donate">DONATE NOW</span></h2></div>
+        <div class="divider_line"></div>
+        <div class="footer_content"> <h3> <img src="images/logo.png" width="35px" height="35px" alt="weblogo"/> Africado Foundation</h3><br/><p>Empowering people to build a better future</p><br/><h3><div class="donatee">DONATE NOW</div></h3></div>
         <div class="footer_content">
           <h1>PROGRAMS</h1>
           <ul>
@@ -50,13 +74,13 @@ height="10px" alt ="instagram logo1"/> <img src="images/face.jpg" width="10px" h
            <div class="footer_content">
             <h1>CONTACT US</h1>
             <ul>
-              <li>Harmony innovation Hub, 1 M.M Akali street,</li>
-              <li>442 Crescent, ctec villa, Gwaimpa, Abuja</li>
-              <li>+234(807) 900 6448</li>
-              <li>info@africado.foundation</li>
+              <li> <img src="images/gprs.png" width="10px" height="10px" alt="location logo"/> Harmony innovation Hub, 1 M.M Akali street,
+              442 Crescent, ctec villa, Gwaimpa, Abuja</li>
+              <li><img src="images/phone.png" width="10px" height="10px" alt="phone logo"/>  +234(807) 900 6448</li>
+              <li><img src="images/mail.png" width="10px" height="10px" alt="mail logo"/>  info@africado.foundation</li>
             </ul>
            </div>
-           <section class="footer_copyright">&#169;Copyright Africado foundation. All rights reserved</section>
+           <section class="footer_copyright">&#169;Copyright Africado foundation. All rights reserved<br></section>
       </div>
     </footer>
   </body>

@@ -12,53 +12,143 @@
     flex:1 0 auto;
   }
 .header_logo{
+display:flex;
+flex-direction: row;
+justify-content:space-around;
 background-color:#354fd8;
 color:#ffffff;
-padding-right:10px;
-padding-top:9px;
-padding-left:20px;
+padding-top: 8px;
 height:35px;
 width:100%;
 font-weight: 2em;
-text-align: center;
 }
-.header_links a {
-    text-decoration:none;
-    color: black;
-    display:block;
+.donate{
+    border:2px solid #f2cd1a;
+    border-radius:33px;
+    width:160px;
+    height: 40px;
+    background-color: #ffffff;
+    color:#f2cd1a;
+    padding-top:5px;
+    margin-top:10px;
+    text-align: center;
+    font-family:'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
 }
-.header_links ul{
-    list-style-type:none;
+.header_link_item a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-size:15px;
+    font-weight: 400;
+}
+.header_link_item, ul{
+    list-style:none;
     margin:0;
     padding:0;
 }
-.header_links ul li a{
-    padding:10px;
-    background:#ffffff;
+.header_link_item, li{
+   float:left; 
+   width:150px;
+   padding-top:15px;
 }
-.header_links ul li a:hover{
-    background:#f2cd1a ;
-    color:#ffffff;
+.header_nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #ffffff;
 }
-.header_links ul li{
-    float: left;
-    width:15%;
-    text-align:center;
+.header_nav li:hover{
+    background-color: #f2cd1a;
+    color: #ffffff;
 }
+
+.header_nav a:hover{
+    background-color: #f2cd1a;
+    color: #ffffff;
+}
+.header_logo_right span{
+    position:relative;
+    left:-25px;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
+.header_logo_right img{
+    position:relative;
+    left:-27px;
+}
+#img_g{
+    margin-left:30px;
+}
+#im_g{
+    margin-left:40px;
+}
+.header_banner{
+    border-radius:2px solid black;
+    height:50px;
+    width:100%;
+    margin-top:75px;
+  }
+  .hero{
+    position:relative;
+    border: 1px solid red;
+    background-image: url("sky_pp.jpg");
+    background-repeat: no-repeat;
+    background-size:350px , 50px;
+    background-position: center center;
+    filter:brightness(60%);
+  }
+  .hero::before{
+    position:absolute;  
+    }
+
+
+
+
 footer{
-    color:gray;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    color:#000000;
     background:#ffffff;
     position: relative;
 }
+.footer_content p{
+    font-family: 'inter';
+    font-size: 14px;
+    font-style: none;
+    font-weight: 100;
+}
 .footer_body{
-    border-radius:2px solid black;
     margin-bottom:40px;
     padding:30px;
 }
 .footer_body ul{
-    list-style-type:none;
     margin:0px;
     padding:0px;
+    font-family: 'inter';
+    font-size: 14 px;
+    font-style:none;
+    font-weight:100;
+}
+.donatee{
+    border:2px solid #f2cd1a;
+    border-radius:33px;
+    width:160px;
+    height: 40px;
+    background-color: #ffffff;
+    color:#f2cd1a;
+    padding-top:5px;
+    text-align: center; font-family:'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+
 }
 .footer_body li{
     text-decoration:none;
