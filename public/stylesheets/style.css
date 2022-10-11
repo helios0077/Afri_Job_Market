@@ -9,48 +9,6 @@
     flex-direction:column;
   }
 
-  .header::after{
-content:"";
-display: inline;
-clear:both;
-  }
-  @media only screen and (min-width:480px) and (max-width:767px) {
-    .header_banner{width:15%}
-    .header_logo{width:20%}
-    .header_nav{width:20%}
-    .header_link_item{width:75%}
-    .donate{width:auto}
-    
-  }
-  .hero::after{
-    content:"";
-    display:block;
-    clear:both;
-  }
-  @media only screen and (min-width:480px) and (max-width:767px) {
-    .hero_button{width:8.677%}
-    .hero_content{width:65%}
-    .hero_title{width:10%}
-    .hero_subbtitle{width:15%}
-    
-  }
-  .second_side::after{
-    display:flex;
-    flex-direction: column;
-    justify-content:space-around;
-    text-overflow: ellipsis;
-  }
-  @media only screen and (min-width:480px) and (max-width:767px){
-    .second_sideone{width:33.3333%}
-    .second_sidethree{width:33.3333%}
-    .second_sidetwo{width:33.333%}
-  }
-    
-
-
-
-
-
  main{
     flex:1 0 auto;
   }
@@ -205,7 +163,7 @@ font-weight: 2em;
     box-shadow:10px 10px 5px #aaaaaa;
 }
 .second_sidetwo{
-    background-image: url('../images/sidetwo.png');
+    background-image: url('../images/programad.png');
     background-size:350px 250px;
     background-repeat: no-repeat;
     border:1px solid  rgb(229, 229, 229);
@@ -265,7 +223,7 @@ font-weight: 2em;
     padding-top: 60px;
 }
 .third_sideoneee{
-    background-image: url(../images/side_two.png);
+    background-image: url(../images/programa.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: 1px solid #ffffff;
@@ -366,7 +324,7 @@ left:40px;
     
 
 
-
+/* FOOTER CSS */
 
 footer{
     border-top:1px solid black;
@@ -444,3 +402,530 @@ clear:both;
     left:0px;
     text-align:center;
 }
+
+
+/*ABOUT US PAGE*/
+
+
+
+
+
+
+.about_sec{
+    height:400px;
+    background-color: #ffffff;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.about_seca{
+    background-image: url(../images/programac.png);
+    background-repeat: no-repeat;
+    background-size: 300px 280px;
+    height: 280px;
+    width:300px;
+ border-radius: 10px;
+}
+.about_secb{
+    height:280px;
+    width:400px;
+ border-radius: 10px;
+ padding-top: 20px;
+
+}
+.about_sech1{
+    color:#354fd8;
+    text-align: center;
+}
+.about_secp{
+    color:#aaaaaa;
+    text-align: center;
+}
+
+
+
+
+.about_third{
+    height:400px;
+    background-color: #ffffff;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.about_third h1{
+    color:#354fd8;
+    text-align: center;
+}
+.about_third p{
+    padding-top: 15px;
+    color:#aaaaaa;
+    text-align: center;
+}
+
+.about_thirdone{
+    height:280px;
+    width:480px;
+    border-radius: 13px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    position: relative;
+    left:100px;
+    padding-top: 10px;
+}
+.about_thirdtwo{
+    height:280px;
+    width:480px;
+    border-radius: 13px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    position: relative;
+    left:180px;
+    padding-top: 15px;
+}
+#about_img{
+width:80px;
+height: 80px;
+position: relative;
+left:180px;
+padding-top: 10px;
+
+}
+.about_thirdh1{
+    color:#354fd8;
+    position:relative;
+    top:300px;
+    right:550px;
+}
+.about_four{
+    height: 600px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-top:30px;
+}
+.about_fourone{
+    background-image: url('../images/programa.png');
+    background-size: 250px 350px;
+    background-repeat: no-repeat;
+    height: 350px;
+    width:250px;
+    border: 1px solid orchid;
+}
+.about_fourtwo{
+    height: 500px;
+    width: 800px;
+}
+.about_foura{
+    background-color: #ffffff;
+    height:250px;
+    width:800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about_fouraa{
+    background-color: #ffffff;
+    height: 220px;
+    width: 250px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    padding-top: 15px;
+}
+.about_fourab{
+    background-color: #ffffff;
+    height: 220px;
+    width:250px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    padding-top: 15px;
+}
+.about_fourac{
+    background-color: #ffffff;
+    height:220px;
+    width:250px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    padding-top: 15px;
+}
+.about_fourb{
+    background-color: #ffffff;
+    height:250px;
+    width:800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about_fourba{
+    background-color: #ffffff;
+    height: 220px;
+    width: 250px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    padding-top: 15px;
+}
+.about_fourbb{
+    background-color: #ffffff;
+    height: 220px;
+    width:250px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    padding-top: 15px;
+}
+.about_fourbc{
+    background-color: #ffffff;
+    height:220px;
+    width:250px;
+    box-shadow: 2px 3px 5px 1px #aaaaaa;
+    padding-top: 15px;
+}
+.about_four h1{
+    color:#354fd8;
+    text-align: center;
+    font-size: 25px;
+
+}
+.about_four p{
+    color:#aaaaaa;
+    text-align: center;
+}
+.about_fourbcch1{
+    color:#354fd8;
+    text-align: center;
+}
+.about_five{
+    background-color: #ffffff;
+    height: 400px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about_fivea{
+    background-image: url('../images/programaf.png');
+    background-repeat: no-repeat;
+    background-size: 200px 350px;
+    background-color: #ffffff;
+    height:350px;
+    width:200px;
+    margin-top: 15px;
+   
+}
+.about_fiveb{
+    background-color: #ffffff;
+    height: 350px;
+    width:600px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.donate_maincbutn{
+    border:1px solid #354fd8;
+    background-color: #ffffff;
+    width: 400px;
+    height: 50px;
+    color: #354fd8;
+    border-radius: 33px;
+    margin-left:20px;
+}
+.donate_maincbutn:hover{
+    opacity: 0.7;
+    background-color: #354fd8;
+    color:#ffffff;
+}
+
+
+
+
+
+.about_five h4{
+    color:#aaaaaa;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*PROGRAMS PAGE*/
+
+
+.mainprogram{
+    height: 2400px;
+    width:1100px;
+    margin:auto;
+    padding-left: 50px;
+    color:#aaaaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.mainprograma{
+background-color: #ffffff;
+height: 360px;
+width:1000px;
+box-shadow: 2px 3px 30px 10px #aaaaaa;
+}
+.mainprogramaa{
+width:100%;
+height: 150px;
+}
+.mainprogramab{
+    width:100%;
+    height: 210px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#mainprogramimg{
+    width: 235px;
+    height: 180px;
+}
+
+
+
+.mainprogramb{
+background-color: #ffffff;
+height: 360px;
+width:1000px;
+box-shadow: 2px 3px 30px 10px #aaaaaa;
+}
+
+.mainprogramba{
+width:100%;
+height: 150px;
+}
+.mainprogrambb{
+    width:100%;
+    height: 210px; 
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.mainprogramc{
+    background-color: #ffffff;
+    height: 360px;
+    width:1000px;
+    box-shadow: 2px 3px 30px 10px #aaaaaa;
+}
+
+.mainprogramca{
+width:100%;
+height: 150px;
+}
+.mainprogramcb{
+    width:100%;
+    height: 210px;  
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+.mainprogramd{
+    background-color: #ffffff;
+    height: 360px;
+    width:1000px;
+    box-shadow: 2px 3px 30px 10px #aaaaaa;
+}
+.mainprogramda{
+width:100%;
+height: 150px;
+}
+.mainprogramdb{
+width:100%;
+height: 210px;
+padding-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+.mainprogramf{
+    background-color: #ffffff;
+    height: 360px;
+    width:1000px;
+    box-shadow: 2px 3px 30px 10px #aaaaaa;
+}
+.mainprogramfa{
+width:100%;
+height: 150px;
+}
+.mainprogramfb{
+width:100%;
+height: 210px;
+padding-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+
+}
+
+/* Donate Page */
+
+.donate_maina{
+    height:700px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.donate_mainaa{
+    height: 350px;
+    width:300px;
+    background-image: url('../images/programaa.png');
+    background-repeat: no-repeat;
+    background-size: 300px 350px;
+}
+.donate_para{
+    color:#354fd8;
+    text-align: center;
+    font-size: 16px;
+}
+.donate_span{
+    color:#f2cd1a;
+    font-size: 22px;
+    padding-left: 8px;
+}
+
+
+.donateapara{
+    color:#aaaaaa;
+    text-align: center;
+}
+.donate_h1{
+    color:#f2cd1a;
+    text-align: center;
+}
+.donate_mainab{
+    height: 400px;
+    width: 495px;
+    padding-top: 15px;
+}
+.donate_mainac{
+    border:1px solid orangered;
+    height: 200px;
+    width: 1250px;
+}
+.donate_mainb{
+    background-color: rgb(229, 229, 229);
+    height: 300px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top:20px;
+    box-shadow: 3px 1px 4px 2px #aaaaaa;
+}
+.donate_mainba{
+    height: 250px;
+    width: 450px;
+}
+.donate_mainbapara{
+    color:#4b4949;
+    text-align: center;
+}
+.donate_mainbb{
+    height:250px;
+    width:300px;
+    border-radius: 15px;
+    background-image: url('../images/programab.png');
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+}
+.donate_butn{
+    border:2px solid #f2cd1a;
+    border-radius:33px;
+    width:150px;
+    height: 42px;
+    color: #ffffff;
+    background-color:hsl(50, 89%, 53%);
+    text-align: center;
+    font-family:'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.donate_butn:hover{
+    opacity: 0.6;
+}
+.donate_mainh1{
+    color:#354fd8;
+    text-align: center;
+}
+
+
+.donate_mainc{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.donate_mainca{
+    height: 300px;
+    width: 300px;
+    background-image: url('../images/programac.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.donate_maincab{
+    background-color: #ffffff;
+    height: 250px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.donate_maincbutn{
+    border:1px solid #354fd8;
+    background-color: #ffffff;
+    width: 400px;
+    height: 50px;
+    color: #354fd8;
+    border-radius: 33px;
+    margin-left:20px;
+}
+.donate_maincbutn:hover{
+    opacity: 0.7;
+    background-color: #354fd8;
+    color:#ffffff;
+}
+
+@media screen and (max-width:480px) {
+    .about_sec{
+        display:flex;
+        flex-direction: column;
+    }
+    .about_sec div{
+        width: 320px;
+        height:330px;
+        color:red;
+    
+    }
+    .about_third{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    .about_third div{
+        height: 250px;
+        width: 300px;
+        margin-right: 100px;
+    }
+    .about_four{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    }
+
+
+
